@@ -1,0 +1,236 @@
+/*
+Favor usar as seguintes cores:
+Branco: #e4e4e4
+Preto: #151515
+Azul Claro: #add8e6
+Vermelho: #b53030
+*/
+
+#screenColumn{
+  justify-content: center;
+  background-color: #e4e4e4;
+  border-radius: 5px 5px 5px 43px;
+  border: #00000026 solid 2px;
+  padding: 15px;
+  display: flex;
+}
+
+#screen{
+  transition: background-color 0.5s ease-in-out;
+  background-color: #151515;
+  border-radius: 10px;
+  padding: 1em;
+  width: 80%;
+  height: 16em;
+  border: #ffffff24 solid 2px;
+}
+
+#square{
+  border-top: 50px solid #555;
+  border-left: 0px solid transparent;
+  border-right: 30px solid transparent;
+  top: 0px;
+  max-height: 30px;
+  width: 60%;
+  position: relative;
+  z-index: -1;
+}
+
+#retangle{
+  height: 40px;
+  width: 100%;
+  background-color: #555;
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+
+#inputNome{
+  box-shadow: #00000045 -1px 3px 4px;
+}
+
+#btnSend{
+  width: 47px;
+  height: 40px;
+  background-color: #151515;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: #00000045 -1px 3px 4px;
+}
+
+#pokemonsNameArea{
+  background-color: #282d28;
+  color: green;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+.headerCircles{
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid #e4e4e4;
+  position: absolute;
+  top: 15px;
+}
+
+#circle1{
+  animation: pulseCircle1 0.7s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  height: 50px;
+  width: 50px;
+  background-color: #add8e6;
+  border-radius: 50%;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  border: 2px solid #e4e4e4
+}
+
+#circle2{
+  animation: pulseCircle2 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  background-color: #b53030;
+  left: 100px;
+}
+
+#circle3{
+  animation: pulseCircle3 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  background-color: #dee443;
+  left: 140px;
+}
+
+#circle4{
+  animation: pulseCircle4 1s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  background-color: #6be66b;
+  left: 180px;
+}
+
+#circleHelper{
+  transition: background-color 0.5s ease-in-out;
+  height: 56px;
+  width: 26px;
+  background-color: #151515;
+  border-radius: 45%;
+  position: absolute;
+  top: 15px;
+  left: 91%;
+  border: 1px solid #00000029;
+}
+.pkmnCards{
+  width: 12rem !important;
+  color: #e4e4e4 !important;
+  min-width: 12em !important;
+  -webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+  cursor: pointer;
+}
+
+.pkmnCardInicial{
+  background-color: #61bcce !important;
+}
+
+.pkmnCardLendario{
+  background-color: #a28c9c !important;
+}
+
+.pkmnCardMitico{
+  background-color: #93d7b7 !important;
+}
+
+.pkmnCardUb{
+  background-color: #7e9fe9 !important;
+}
+
+.pkmnCardNone{
+  background-color: #428d9c !important;
+}
+
+.especieBall{
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 15px;
+  left: 8%;
+  border: 1px solid #e4e4e4;
+  border-radius: 50%;
+}
+.cInicial{
+  background-color: #67cde8;
+}
+.cLendario{
+  background-color: #ea2121;
+}
+.cMitico{
+  background-color: #dfe63b;
+}
+.cUb{
+  background-color: #913be6;
+}
+/*@keyframes lightpulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}*/
+
+@keyframes pulseCircle1 {
+  0% {
+    transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(185, 220, 230, 0.7);
+    background-color: #87cce2;
+  }
+  70% {
+    transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(185, 220, 230, 0);
+  }
+  100% {
+    transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(185, 220, 230, 0);
+    background-color: #3e7384;
+  }
+}
+
+@keyframes pulseCircle2 {
+  0% {
+    background-color: #b53030;
+  }
+  100% {
+    background-color: #882525;
+  }
+}
+
+@keyframes pulseCircle3 {
+  0% {
+    background-color: #dee443;
+  }
+  100% {
+    background-color: #969a2e;
+  }
+}
+
+@keyframes pulseCircle4 {
+  0% {
+    background-color: #6be66b;
+  }
+  100% {
+    background-color: #408c40;
+  }
+}
