@@ -8,7 +8,7 @@ A ideia surgiu pela necessidade de alguns amigos que utilizam a plataforma e o P
 PokeRealm é um bot originado no discord onde disponibiliza uma integração por restAPI.
 A API é consumida pela app PokeFinder que disponibiliza um front-end intuitivo para a utilização da API e o reconhecimento do Pokémon.  
 
-##Status
+## Status
 Completo
 
 ## Funcionamento
