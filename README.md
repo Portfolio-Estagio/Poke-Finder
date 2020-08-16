@@ -16,7 +16,7 @@ A API é consumida pela app PokeFinder que disponibiliza um front-end intuitivo 
   E inserir na aplicação:
   ![image](https://user-images.githubusercontent.com/69728179/90322518-a9962a80-df2b-11ea-9823-2486f8dd11ac.png)
   
-  Após o resultado o usuário deverá clicar no pokemon correspondente ao visto no Discord, copiando assim o comando para captura-lo.
+  Após o resultado o usuário deverá clicar no pokemon correspondente ao visto no Discord, copiando assim o comando para captura-lo.  
   ![image](https://user-images.githubusercontent.com/69728179/90322666-4c02dd80-df2d-11ea-91bb-620ef447740e.png)
   
 ## Utilizando:
