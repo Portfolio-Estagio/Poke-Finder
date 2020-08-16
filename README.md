@@ -1,9 +1,12 @@
 # Poke-Finder
-Aplicação que realiza integração com o pokerealm para buscas de Pokémons por palavra chave, facilitando assim a captura.
+Aplicação que realiza integração com o PokeRealm para buscas de Pokémons por palavra chave, facilitando assim a captura.  
+
+#### Surgimento:
+A ideia surgiu pela necessidade de alguns amigos que utilizam a plataforma e o PokeRealm de capturar Pokémons mais rapidamente e para aqueles que não sabem o nome do Pokémon.
 
 ## O que é o pokérealm?
 
-Pokerealm é um bot originado no discord onde disponibiliza uma integração por restAPI.
+PokeRealm é um bot originado no discord onde disponibiliza uma integração por restAPI.
 A API é consumida pela app PokeFinder que disponibiliza um front-end intuitivo para a utilização da API e o reconhecimento do Pokémon.
 
 ## Funcionamento:
