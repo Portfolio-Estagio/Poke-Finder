@@ -27,6 +27,5 @@ Finalizado
 ## Utilizando
   - HTML
   - CSS / Bootstrap
-  - Javascript / AJAX / JQuery / Nodejs
-
-Hospedado no glitch: https://pokerealmfinder.glitch.me/
+  - Javascript / Vuejs / Nodejs
+Hospedado no vercel: http://pokefinder-six.vercel.app/
