@@ -27,5 +27,5 @@ Finalizado
 ## Utilizando
   - HTML
   - CSS / Bootstrap
-  - Javascript / Vuejs / Nodejs
+  - Javascript / Vuejs / Nodejs  
 Hospedado no vercel: http://pokefinder-six.vercel.app/
